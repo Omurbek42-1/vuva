@@ -1,2 +1,3 @@
-@dp.message(Command("picture")) 
-async def picture_handler(message: types.FSInputFile)
+def send_picture(update, context):
+    # Здесь будет логика отправки изображения
+    pass
